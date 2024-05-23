@@ -1648,3 +1648,25 @@
             url(https://euro.gmkb.live/wp-content/themes/flatsome/assets/css/icons/fl-icons.woff?v=3.18.7) format("woff"),
             url(https://euro.gmkb.live/wp-content/themes/flatsome/assets/css/icons/fl-icons.svg?v=3.18.7#fl-icons) format("svg");
     }
+
+    .table-container {
+        width: 90%;
+        max-width: 1200px;
+        margin: 20px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        table-layout: fixed; /* This ensures all columns are equal width */
+    }
+
+    th, td {
+        border: 1px solid #dddddd;
+        text-align: center;
+        padding: 8px;
+        width: calc(100% / 4); /* Divide the table width equally by 6 */
+    }
+    thead tr, th {
+        font-size: 0.7em;
+    }

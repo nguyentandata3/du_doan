@@ -39,7 +39,7 @@ $csrf_token = $_SESSION['csrf_token'];
         href="https://euro.gmkb.live/feed/" />
     <link rel="alternate" type="application/rss+xml" title="Euro 2024 - GMKB.LIVE &raquo; Dòng bình luận"
         href="https://euro.gmkb.live/comments/feed/" />
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles2.css">
     <link rel="stylesheet" href="css/popup.css">
     <script type="text/javascript">
     /* <![CDATA[ */
@@ -200,20 +200,6 @@ $csrf_token = $_SESSION['csrf_token'];
                 <div id="masthead" class="header-main nav-dark">
                     <div class="header-inner flex-row container logo-left medium-logo-center" role="navigation">
 
-                        <!-- Logo -->
-                        <div id="logo" class="flex-col logo">
-
-                            <!-- Header logo -->
-                            <a href="#" title="Euro 2024 &#8211; GMKB.LIVE - Đồng hành Euro 2024 cùng GMKB.LIVE"
-                                rel="home">
-                                <img width="1020" height="364"
-                                    src="https://euro.gmkb.live/wp-content/uploads/2024/04/logo-gmkb-euro-2024-1024x365.png"
-                                    class="header_logo header-logo" alt="Euro 2024 &#8211; GMKB.LIVE" /><img
-                                    width="1020" height="364"
-                                    src="https://euro.gmkb.live/wp-content/uploads/2024/04/logo-gmkb-euro-2024-1024x365.png"
-                                    class="header-logo-dark" alt="Euro 2024 &#8211; GMKB.LIVE" /></a>
-                        </div>
-
                         <!-- Mobile Left Elements -->
                         <div class="flex-col show-for-medium flex-left">
                             <ul class="mobile-nav nav nav-left ">
@@ -237,24 +223,15 @@ $csrf_token = $_SESSION['csrf_token'];
                                 class="header-nav header-nav-main nav nav-left  nav-line-bottom nav-size-medium nav-spacing-medium nav-uppercase">
                                 <li id="menu-item-24"
                                     class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-24 active menu-item-design-default">
-                                    <a href="#" aria-current="page" class="nav-top-link">Trang
-                                        chủ</a>
+                                    <a href="#" aria-current="page" class="nav-top-link">HOME PAGE</a>
                                 </li>
                                 <li id="menu-item-20"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20 menu-item-design-default">
-                                    <a href="#" class="nav-top-link">Lịch thi đấu</a>
+                                    <a href="#" class="nav-top-link">FIXTURES</a>
                                 </li>
                                 <li id="menu-item-23"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23 menu-item-design-default">
-                                    <a href="#" class="nav-top-link">Sự kiện</a>
-                                </li>
-                                <li id="menu-item-21"
-                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21 menu-item-design-default">
-                                    <a href="#" class="nav-top-link">Trực tiếp</a>
-                                </li>
-                                <li id="menu-item-22"
-                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22 menu-item-design-default">
-                                    <a href="#" class="nav-top-link">Highlight</a>
+                                    <a href="#" class="nav-top-link">Event</a>
                                 </li>
                             </ul>
                         </div>
@@ -351,9 +328,9 @@ $csrf_token = $_SESSION['csrf_token'];
                                         <div data-animate="fadeInLeft">
                                             <div class="img-inner dark">
                                                 <img fetchpriority="high" decoding="async" width="998" height="1080"
-                                                    src="https://euro.gmkb.live/wp-content/uploads/2024/03/tk-euro-gmkb-live.png"
+                                                    src="photo/img-header.png"
                                                     class="attachment-original size-original" alt=""
-                                                    srcset="https://euro.gmkb.live/wp-content/uploads/2024/03/tk-euro-gmkb-live.png 998w, https://euro.gmkb.live/wp-content/uploads/2024/03/tk-euro-gmkb-live-277x300.png 277w, https://euro.gmkb.live/wp-content/uploads/2024/03/tk-euro-gmkb-live-946x1024.png 946w, https://euro.gmkb.live/wp-content/uploads/2024/03/tk-euro-gmkb-live-768x831.png 768w"
+                                                    srcset="photo/img-header.png 998w, img-header.png 277w, photo/img-header.png 946w, photo/img-header.png 768w"
                                                     sizes="(max-width: 998px) 100vw, 998px" />
                                             </div>
                                         </div>
@@ -367,13 +344,13 @@ $csrf_token = $_SESSION['csrf_token'];
                             <div id="col-1100752330" class="col medium-6 small-12 large-6">
                                 <div class="col-inner">
                                     <p>Giải vô địch bóng đá châu Âu, thường được biết đến với tên gọi UEFA Euro hay
-                                        Euro, là giải bóng đá quốc tế dành cho các đội tuyển quốc gia nam của các thành
+                                        Euro, là giải bóng đá quốc tế dành cho các Team tuyển quốc gia nam của các thành
                                         viên Liên đoàn bóng đá châu Âu, nhằm xác định nhà vô địch châu lục của châu Âu
                                     </p>
                                     <a href="#sukiendudoan"
                                         class="button primary is-gloss is-larger box-shadow-2 expand"
                                         style="border-radius:10px;">
-                                        <span>SỰ KIỆN DỰ ĐOÁN EURO 2024</span>
+                                        <span>PREDICTION EVENT</span>
                                     </a>
 
                                 </div>
@@ -387,6 +364,546 @@ $csrf_token = $_SESSION['csrf_token'];
 
                 <span class="scroll-to" data-label="Scroll to: #sukiendudoan" data-bullet="false"
                     data-link="#sukiendudoan" data-title="Sukiendudoan"><a name="sukiendudoan"></a></span>
+
+                <section class="section dark" id="section_833233726">
+                    <div class="bg section-bg fill bg-fill  ">
+
+
+                        <div class="section-bg-overlay absolute fill"></div>
+
+
+                    </div>
+
+
+
+                    <div class="section-content relative">
+
+                        <span class="scroll-to" data-label="Scroll to: #dudoan1" data-bullet="false"
+                            data-link="#dudoan1" data-title="dudoan1"><a name="dudoan1"></a></span>
+                        <div class="row" id="row-1603114019">
+
+                            <div id="col-1522368423" class="col medium-6 small-12 large-6" data-animate="fadeInLeft">
+                                <div class="col-inner">
+
+
+                                    <div class="img has-hover x md-x lg-x y md-y lg-y" id="image_518081423">
+                                        <div data-animate="fadeInLeft">
+                                            <div class="img-inner dark">
+                                                <img loading="lazy" decoding="async" width="2344" height="261"
+                                                    src="photo/every-day.png"
+                                                    class="attachment-original size-original" alt=""
+                                                    srcset="photo/every-day.png 2344w, photo/every-day-300x33.png 300w, photo/every-day-1024x114.png 1024w, photo/every-day-768x86.png 768w, photo/every-day-1536x171.png 1536w, photo/every-day-2048x228.png 2048w"
+                                                    sizes="(max-width: 2344px) 100vw, 2344px" />
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <p style="text-align: justify;">– Dự đoán 8 Team mạnh nhất lọt vào Vòng Tứ kết. Đúng
+                                        1 Team được <span style="color: #ffff00;"><strong>100.000 đồng</strong></span>,
+                                        nếu trúng cả 8 Team Hội viên sẽ nhận được <span
+                                            style="color: #ffff00;"><strong>2.000.000 đồng</strong></span>.<br />&#8211;
+                                        Thời gian dự đoán đến hết <span
+                                            style="color: #00ffff;"><strong>28/06</strong></span><br />&#8211; <span
+                                            style="color: #00ffff;"><strong>200 giải</strong></span> (Tính từ tài khoản
+                                        dự đoán chính xác nhất)</p>
+                                </div>
+                            </div>
+
+                            <div id="col-365686457" class="col medium-6 small-12 large-6" data-animate="fadeInRight">
+                                <div class="col-inner">
+                                    <div id="timer-246813316" class="ux-timer light" data-text-plural="s"
+                                        data-text-hour="HOUR" data-text-day="DAY" data-text-week="WEEK"
+                                        data-text-min="MINUTE" data-text-sec="SECOND" data-text-hour-p="HOUR"
+                                        data-text-day-p="DAY" data-text-week-p="WEEK" data-text-min-p="MINUTE"
+                                        data-text-sec-p="SECOND" data-countdown="2024/06/28 23:59"><span>&nbsp;<div
+                                                class="loading-spin dark centered"></div><strong>&nbsp;</strong></span>
+                                    </div>
+                                    <div class="wpcf7 no-js" id="wpcf7-f273-p8-o1" lang="vi" dir="ltr">
+                                        <div class="screen-reader-response">
+                                            <p role="status" aria-live="polite" aria-atomic="true"></p>
+                                            <ul></ul>
+                                        </div>
+                                        <form id="every-day" onsubmit="return everyday();">
+                                                <input type="hidden" name="csrf_token" value="<?php echo $csrf_token; ?>">
+                                            <div id="responsive-form" class="clearfix">
+                                                <div class="form-row">
+                                                    <div class="column-half" style="width: 100%">
+                                                        <p>Username <span class="wpcf7-form-control-wrap"
+                                                                data-name="your-name"><input size="40"
+                                                                    class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                                                                    aria-required="true" aria-invalid="false" value=""
+                                                                    type="text" name="tu_ket_tk_hola" required /></span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="form-row">
+                                                    <table>
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Date Time</th>
+                                                                <th>Home Team</th>
+                                                                <th>Away Team</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <th>03:00 15/06</th>
+                                                                <th>Germany</th>
+                                                                <th>Scotland</th>
+                                                            </tr>
+                                                            <tr>
+                                                                <th><button type="button" class="result-button" id="Germany" onclick="selectResult('Germany', 'result1')">Home</button></th>
+                                                                <th><button type="button" class="result-button" id="draw1" onclick="selectResult('draw1', 'result1')">Draw</button></th>
+                                                                <th><button type="button" class="result-button" id="Scotland" onclick="selectResult('Scotland', 'result1')">Away</button></th>
+                                                                <input type="hidden" id="result1" name="result1" required>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <table>
+                                                        <tbody>
+                                                            <tr style="margin-top: 10px">
+                                                                <th>20:00 15/06</th>
+                                                                <th>Hungary</th>
+                                                                <th>Switzerland</th>
+                                                            </tr>
+                                                            <tr>
+                                                                <th><button type="button" class="result-button" id="Hungary" onclick="selectResult('Hungary', 'result2')">Home</button></th>
+                                                                <th><button type="button" class="result-button" id="draw2" onclick="selectResult('draw2', 'result2')">Draw</button></th>
+                                                                <th><button type="button" class="result-button" id="Switzerland" onclick="selectResult('Switzerland', 'result2')">Away</button></th>
+                                                                <input type="hidden" id="result2" name="result2" required>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <table>
+                                                        <tbody>
+                                                            <tr style="margin-top: 10px">
+                                                                <th>20:00 15/06</th>
+                                                                <th>Spain</th>
+                                                                <th>Croatia</th>
+                                                            </tr>
+                                                            <tr>
+                                                                <th><button type="button" class="result-button" id="Spain" onclick="selectResult('Spain', 'result3')">Home</button></th>
+                                                                <th><button type="button" class="result-button" id="draw3" onclick="selectResult('draw3', 'result3')">Draw</button></th>
+                                                                <th><button type="button" class="result-button" id="Croatia" onclick="selectResult('Croatia', 'result3')">Away</button></th>
+                                                                <input type="hidden" id="result3" name="result3" required>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="form-row">
+                                                    <div class="column-full"><input style="width:100%" class="button-submit2" type="submit" value="SUBMIT"/>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </section>
+
+                <section class="section dark" id="section_2103704594">
+                    <div class="bg section-bg fill bg-fill  ">
+                        <div class="section-bg-overlay absolute fill"></div>
+                    </div>
+
+                    <div class="section-content relative">
+
+                        <span class="scroll-to" data-label="Scroll to: #dudoan2" data-bullet="false"
+                            data-link="#dudoan2" data-title="dudoan2"><a name="dudoan2"></a></span>
+                        <div class="row" id="row-1236141473">
+
+                            <div id="col-1071399622" class="col medium-6 small-12 large-6" data-animate="fadeInLeft">
+                                <div class="col-inner">
+
+
+                                    <div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1496252401">
+                                        <div data-animate="fadeInLeft">
+                                            <div class="img-inner dark">
+                                                <img loading="lazy" decoding="async" width="2438" height="256"
+                                                    src="photo/1-16.png"
+                                                    class="attachment-original size-original" alt=""
+                                                    srcset="photo/1-16.png 2438w, photo/1-16.png 300w, photo/1-16.png 1024w, photo/1-16.png 1536w, photo/1-16.png 2048w"
+                                                    sizes="(max-width: 2438px) 100vw, 2438px" />
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <p>– Dự đoán 4 Team mạnh nhất lọt vào Vòng Bán kết. Hội viên dự đoán đúng 3/4 Team sẽ
+                                        nhận được <span style="color: #ffff00;"><strong>1.000.000 đồng</strong></span>.
+                                        Nếu đúng cả 4 Team sẽ nhận được <span style="color: #ffff00;"><strong>3.000.000
+                                                đồng</strong></span>.</p>
+                                    <p>Thời gian dự đoán đết hết <span
+                                            style="color: #00ffff;"><strong>04/07</strong></span>.<br />Giới hạn <span
+                                            style="color: #00ffff;"><strong>10 tài khoản</strong></span> dự đoán đúng và
+                                        nhEngland nhất.</p>
+                                </div>
+                            </div>
+
+
+
+                            <div id="col-1320714753" class="col medium-6 small-12 large-6" data-animate="fadeInRight">
+                                <div class="col-inner">
+                                    <div id="timer-464647548" class="ux-timer light" data-text-plural="s"
+                                        data-text-hour="HOUR" data-text-day="DAY" data-text-week="WEEK"
+                                        data-text-min="MINUTE" data-text-sec="SECOND" data-text-hour-p="HOUR"
+                                        data-text-day-p="DAY" data-text-week-p="WEEK" data-text-min-p="MINUTE"
+                                        data-text-sec-p="SECOND" data-countdown="2024/07/04 23:59"><span>&nbsp;<div
+                                                class="loading-spin dark centered"></div><strong>&nbsp;</strong></span>
+                                    </div>
+
+                                    <div class="wpcf7 no-js" id="wpcf7-f280-p8-o2" lang="vi" dir="ltr">
+                                        <div class="screen-reader-response">
+                                            <p role="status" aria-live="polite" aria-atomic="true"></p>
+                                            <ul></ul>
+                                        </div>
+                                        <form id="every-day" onsubmit="return everyday();">
+                                                <input type="hidden" name="csrf_token" value="<?php echo $csrf_token; ?>">
+                                            <div id="responsive-form" class="clearfix">
+                                                <div class="form-row">
+                                                    <div class="column-half" style="width: 100%">
+                                                        <p>Username <span class="wpcf7-form-control-wrap"
+                                                                data-name="your-name"><input size="40"
+                                                                    class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                                                                    aria-required="true" aria-invalid="false" value=""
+                                                                    type="text" name="tu_ket_tk_hola" required /></span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="form-row">
+                                                <table class="match-table">
+                                                    <thead>
+                                                        <tr>
+                                                            <th class="th1">Date Time</th>
+                                                            <th class="th2">Home Team</th>
+                                                            <th class="th3">Away Team</th>
+                                                            <th class="th4">Prediction</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td  class="th1">12 Dec - 04:00</td>
+                                                            <td  class="th2">Germany</td>
+                                                            <td  class="th3">Scotland</td>
+                                                            <td  class="th4">
+                                                            <select
+                                                                    class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required"
+                                                                    aria-required="true" aria-invalid="false"
+                                                                    name="doi-vo-dich">
+                                                                    <option value="home">Home</option>
+                                                                    <option value="draw">Draw</option>
+                                                                    <option value="away">Away</option>
+                                                                </select>
+                                                            </td>
+                                                    </tbody>
+                                                </table>
+                                                </div>
+                                                <div class="form-row">
+                                                    <div class="column-full"><input style="width:100%" class="button-submit2" type="submit" value="SUBMIT"/>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </section>
+
+                <section class="section dark">
+                    <div class="bg section-bg fill bg-fill  ">
+                        <div class="section-bg-overlay absolute fill"></div>
+                    </div>
+
+                    <div class="section-content relative">
+
+                        <span class="scroll-to" data-label="Scroll to: #dudoan2" data-bullet="false"
+                            data-link="#dudoan2" data-title="dudoan2"><a name="dudoan2"></a></span>
+                        <div class="row" id="row-1236141473">
+
+                            <div id="col-1071399622" class="col medium-6 small-12 large-6" data-animate="fadeInLeft">
+                                <div class="col-inner">
+
+
+                                    <div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1496252401">
+                                        <div data-animate="fadeInLeft">
+                                            <div class="img-inner dark">
+                                                <img loading="lazy" decoding="async" width="2438" height="256"
+                                                    src="photo/tu-ket.png"
+                                                    class="attachment-original size-original" alt=""
+                                                    srcset="photo/tu-ket.png 2438w, photo/tu-ket.png 300w, photo/tu-ket.png 1024w, photo/tu-ket.png 1536w, photo/tu-ket.png 2048w"
+                                                    sizes="(max-width: 2438px) 100vw, 2438px" />
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <p>– Dự đoán 4 Team mạnh nhất lọt vào Vòng Bán kết. Hội viên dự đoán đúng 3/4 Team sẽ
+                                        nhận được <span style="color: #ffff00;"><strong>1.000.000 đồng</strong></span>.
+                                        Nếu đúng cả 4 Team sẽ nhận được <span style="color: #ffff00;"><strong>3.000.000
+                                                đồng</strong></span>.</p>
+                                    <p>Thời gian dự đoán đết hết <span
+                                            style="color: #00ffff;"><strong>04/07</strong></span>.<br />Giới hạn <span
+                                            style="color: #00ffff;"><strong>10 tài khoản</strong></span> dự đoán đúng và
+                                        nhEngland nhất.</p>
+                                </div>
+                            </div>
+
+
+
+                            <div id="col-1320714753" class="col medium-6 small-12 large-6" data-animate="fadeInRight">
+                                <div class="col-inner">
+                                    <div id="timer-464647548" class="ux-timer light" data-text-plural="s"
+                                        data-text-hour="HOUR" data-text-day="DAY" data-text-week="WEEK"
+                                        data-text-min="MINUTE" data-text-sec="SECOND" data-text-hour-p="HOUR"
+                                        data-text-day-p="DAY" data-text-week-p="WEEK" data-text-min-p="MINUTE"
+                                        data-text-sec-p="SECOND" data-countdown="2024/07/04 23:59"><span>&nbsp;<div
+                                                class="loading-spin dark centered"></div><strong>&nbsp;</strong></span>
+                                    </div>
+
+                                    <div class="wpcf7 no-js" id="wpcf7-f280-p8-o2" lang="vi" dir="ltr">
+                                        <div class="screen-reader-response">
+                                            <p role="status" aria-live="polite" aria-atomic="true"></p>
+                                            <ul></ul>
+                                        </div>
+                                        <form id="every-day" onsubmit="return everyday();">
+                                                <input type="hidden" name="csrf_token" value="<?php echo $csrf_token; ?>">
+                                            <div id="responsive-form" class="clearfix">
+                                                <div class="form-row">
+                                                    <div class="column-half" style="width: 100%">
+                                                        <p>Username <span class="wpcf7-form-control-wrap"
+                                                                data-name="your-name"><input size="40"
+                                                                    class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                                                                    aria-required="true" aria-invalid="false" value=""
+                                                                    type="text" name="tu_ket_tk_hola" required /></span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="form-row">
+                                                    <table>
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Date Time</th>
+                                                                <th>Home Team</th>
+                                                                <th>Away Team</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <th>03:00 15/06</th>
+                                                                <th>Germany</th>
+                                                                <th>Scotland</th>
+                                                            </tr>
+                                                            <tr>
+                                                                <th><button type="button" class="result-button" id="Germany" onclick="selectResult('Germany', 'result1')">Home</button></th>
+                                                                <th><button type="button" class="result-button" id="draw1" onclick="selectResult('draw1', 'result1')">Draw</button></th>
+                                                                <th><button type="button" class="result-button" id="Scotland" onclick="selectResult('Scotland', 'result1')">Away</button></th>
+                                                                <input type="hidden" id="result1" name="result1" required>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <table>
+                                                        <tbody>
+                                                            <tr style="margin-top: 10px">
+                                                                <th>20:00 15/06</th>
+                                                                <th>Hungary</th>
+                                                                <th>Switzerland</th>
+                                                            </tr>
+                                                            <tr>
+                                                                <th><button type="button" class="result-button" id="Hungary" onclick="selectResult('Hungary', 'result2')">Home</button></th>
+                                                                <th><button type="button" class="result-button" id="draw2" onclick="selectResult('draw2', 'result2')">Draw</button></th>
+                                                                <th><button type="button" class="result-button" id="Switzerland" onclick="selectResult('Switzerland', 'result2')">Away</button></th>
+                                                                <input type="hidden" id="result2" name="result2" required>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <table>
+                                                        <tbody>
+                                                            <tr style="margin-top: 10px">
+                                                                <th>20:00 15/06</th>
+                                                                <th>Spain</th>
+                                                                <th>Croatia</th>
+                                                            </tr>
+                                                            <tr>
+                                                                <th><button type="button" class="result-button" id="Spain" onclick="selectResult('Spain', 'result3')">Home</button></th>
+                                                                <th><button type="button" class="result-button" id="draw3" onclick="selectResult('draw3', 'result3')">Draw</button></th>
+                                                                <th><button type="button" class="result-button" id="Croatia" onclick="selectResult('Croatia', 'result3')">Away</button></th>
+                                                                <input type="hidden" id="result3" name="result3" required>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="form-row">
+                                                    <div class="column-full"><input style="width:100%" class="button-submit2" type="submit" value="SUBMIT"/>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </section>
+
+                <section class="section dark" id="section_1057097998">
+                    <div class="bg section-bg fill bg-fill  ">
+
+
+                        <div class="section-bg-overlay absolute fill"></div>
+
+
+                    </div>
+
+
+
+                    <div class="section-content relative">
+
+                        <span class="scroll-to" data-label="Scroll to: #dudoan3" data-bullet="false"
+                            data-link="#dudoan3" data-title="dudoan3"><a name="dudoan3"></a></span>
+                        <div class="row" id="row-1606988709">
+
+                            <div id="col-1847781390" class="col medium-6 small-12 large-6" data-animate="fadeInLeft">
+                                <div class="col-inner">
+
+
+                                    <div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1228512156">
+                                        <div data-animate="fadeInLeft">
+                                            <div class="img-inner dark">
+                                                <img loading="lazy" decoding="async" width="1898" height="265"
+                                                    src="https://euro.gmkb.live/wp-content/uploads/2024/04/Du-doan-doi-vo-dich-2.png"
+                                                    class="attachment-original size-original" alt=""
+                                                    srcset="https://euro.gmkb.live/wp-content/uploads/2024/04/Du-doan-doi-vo-dich-2.png 1898w, https://euro.gmkb.live/wp-content/uploads/2024/04/Du-doan-doi-vo-dich-2-300x42.png 300w, https://euro.gmkb.live/wp-content/uploads/2024/04/Du-doan-doi-vo-dich-2-1024x143.png 1024w, https://euro.gmkb.live/wp-content/uploads/2024/04/Du-doan-doi-vo-dich-2-768x107.png 768w, https://euro.gmkb.live/wp-content/uploads/2024/04/Du-doan-doi-vo-dich-2-1536x214.png 1536w"
+                                                    sizes="(max-width: 1898px) 100vw, 1898px" />
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <p>– Dự đoán đúng Team VÔ ĐỊCH sẽ nhận được <span
+                                            style="color: #ffff00;"><strong>2.000.000 đồng</strong></span>. Đồng thời
+                                        nếu dự đoán đúng luôn cả TỶ SỐ trong 90 phút trận Chung kết sẽ nhận được tổng số
+                                        tiền là <span style="color: #ffff00;"><strong>5.000.000 đồng</strong></span>.
+                                    </p>
+                                    <p>Thời gian dự đoán đết hết <span
+                                            style="color: #00ffff;"><strong>11/07</strong></span>.<br />Giới hạn
+                                        <strong><span style="color: #00ffff;">05 tài khoản</span></strong> dự đoán đúng
+                                        và nhEngland nhất.
+                                    </p>
+                                </div>
+                            </div>
+
+
+
+                            <div id="col-850134879" class="col medium-6 small-12 large-6" data-animate="fadeInRight">
+                                <div class="col-inner">
+
+
+                                    <div id="timer-1246545593" class="ux-timer light" data-text-plural="s"
+                                        data-text-hour="Giờ" data-text-day="Ngày" data-text-week="Tuần"
+                                        data-text-min="Phút" data-text-sec="Giây" data-text-hour-p="Giờ"
+                                        data-text-day-p="Ngày" data-text-week-p="Tuần" data-text-min-p="Phút"
+                                        data-text-sec-p="Giây" data-countdown="2024/07/11 23:59"><span>&nbsp;<div
+                                                class="loading-spin dark centered"></div><strong>&nbsp;</strong></span>
+                                    </div>
+
+
+                                    <div class="wpcf7 no-js" id="wpcf7-f281-p8-o3" lang="vi" dir="ltr">
+                                        <div class="screen-reader-response">
+                                            <p role="status" aria-live="polite" aria-atomic="true"></p>
+                                            <ul></ul>
+                                        </div>
+                                        <form id="vo-dich" onsubmit="return vodich();">
+                                            <input type="hidden" name="csrf_token" value="<?php echo $csrf_token; ?>">
+                                            <div id="responsive-form" class="clearfix">
+                                                <div class="form-row">
+                                                    <div class="column-half" style="width: 100%">
+                                                        <p>Username<span class="wpcf7-form-control-wrap"><input size="40"
+                                                                    class="wpcf7-form-control"
+                                                                    aria-required="true" aria-invalid="false"
+                                                                    type="text" name="tk_hola" required/></span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="form-row">
+                                                    <div class="column-half">
+                                                        <p>Team vô địch <span class="wpcf7-form-control-wrap"
+                                                                data-name="menu-634">
+                                                                <select
+                                                                    class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required"
+                                                                    aria-required="true" aria-invalid="false"
+                                                                    name="doi-vo-dich">
+                                                                    <option value="">&#8212;Pleasea Select&#8212;
+                                                                    </option>
+                                                                    <option value="Germany">Germany</option>
+                                                                    <option value="Scotland">Scotland</option>
+                                                                    <option value="Hungary">Hungary</option>
+                                                                    <option value="Switzerland">Switzerland</option>
+                                                                    <option value="Spain">Spain</option>
+                                                                    <option value="Croatia">Croatia</option>
+                                                                    <option value="Italy">Italy</option>
+                                                                    <option value="Albania">Albania</option>
+                                                                    <option value="Slovenia">Slovenia</option>
+                                                                    <option value="Denmark">Denmark</option>
+                                                                    <option value="Serbia">Serbia</option>
+                                                                    <option value="England">England</option>
+                                                                    <option value="Poland">Poland</option>
+                                                                    <option value="Netherlands">Netherlands</option>
+                                                                    <option value="Austria">Austria</option>
+                                                                    <option value="France">France</option>
+                                                                    <option value="Belgium">Belgium</option>
+                                                                    <option value="Slovakia">Slovakia</option>
+                                                                    <option value="Romania">Romania</option>
+                                                                    <option value="Ukrainie">Ukrainie</option>
+                                                                    <option value="Turkey">Turkey</option>
+                                                                    <option value="Georgia">Georgia</option>
+                                                                    <option value="Portugal">Portugal</option>
+                                                                    <option value="Czech">Czech</option>
+                                                                </select></span>
+                                                        </p>
+                                                    </div>
+                                                    <div class="column-half">
+                                                        <p>Tỷ số trận đấu <span class="wpcf7-form-control-wrap"
+                                                                data-name="text-434"><input size="40"
+                                                                    class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                                                                    aria-required="true" aria-invalid="false" value=""
+                                                                    type="text" name="ty-so" placeholder="2-1" required/></span>
+                                                        </p>
+                                                    </div>
+                                                    <div class="form-row">
+                                                        <div class="column-full">
+                                                            <p><input
+                                                                    class="wpcf7-form-control wpcf7-submit has-spinner"
+                                                                    type="submit" value="GỬI DỰ ĐOÁN" />
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </section>
+
+                
                 <section class="section dark" id="section_1172210387">
                     <div class="bg section-bg fill bg-fill  ">
 
@@ -438,19 +955,19 @@ $csrf_token = $_SESSION['csrf_token'];
                                     <div class="accordion">
                                         <div id="accordion-1078620403" class="accordion-item">
                                             <a id="accordion-1078620403-label" class="accordion-title plain"
-                                                href="#accordion-item-dỰ-ĐoÁn-8-ĐỘi-vÀo-tỨ-kẾt" aria-expanded="false"
+                                                href="#accordion-item-dỰ-ĐoÁn-8-Team-vÀo-tỨ-kẾt" aria-expanded="false"
                                                 aria-controls="accordion-1078620403-content">
                                                 <button class="toggle" aria-label="Chuyển đổi"><i
                                                         class="icon-angle-down"></i></button>
-                                                <span>DỰ ĐOÁN 8 ĐỘI VÀO TỨ KẾT</span>
+                                                <span>GROUP STAGE PREDICTION</span>
                                             </a>
                                             <div id="accordion-1078620403-content" class="accordion-inner"
                                                 aria-labelledby="accordion-1078620403-label">
 
-                                                <p style="text-align: justify;">– Dự đoán 8 đội mạnh nhất lọt vào Vòng
-                                                    Tứ kết. Đúng 1 đội được <span
+                                                <p style="text-align: justify;">– Dự đoán 8 Team mạnh nhất lọt vào Vòng
+                                                    Tứ kết. Đúng 1 Team được <span
                                                         style="color: #ffff00;"><strong>100.000 đồng</strong></span>,
-                                                    nếu trúng cả 8 đội Hội viên sẽ nhận được <span
+                                                    nếu trúng cả 8 Team Hội viên sẽ nhận được <span
                                                         style="color: #ffff00;"><strong>2.000.000
                                                             đồng</strong></span>.<br />&#8211; Thời gian dự đoán đến hết
                                                     <span
@@ -463,39 +980,39 @@ $csrf_token = $_SESSION['csrf_token'];
 
                                         <div id="accordion-2044041292" class="accordion-item">
                                             <a id="accordion-2044041292-label" class="accordion-title plain"
-                                                href="#accordion-item-dỰ-ĐoÁn-4-ĐỘi-vÀo-bÁn-kẾt" aria-expanded="false"
+                                                href="#accordion-item-dỰ-ĐoÁn-4-Team-vÀo-bÁn-kẾt" aria-expanded="false"
                                                 aria-controls="accordion-2044041292-content">
                                                 <button class="toggle" aria-label="Chuyển đổi"><i
                                                         class="icon-angle-down"></i></button>
-                                                <span>DỰ ĐOÁN 4 ĐỘI VÀO BÁN KẾT</span>
+                                                <span>1/16 STAGE PREDICTION</span>
                                             </a>
                                             <div id="accordion-2044041292-content" class="accordion-inner"
                                                 aria-labelledby="accordion-2044041292-label">
 
-                                                <p>– Dự đoán 4 đội mạnh nhất lọt vào Vòng Bán kết. Hội viên dự đoán đúng
-                                                    3/4 đội sẽ nhận được <span style="color: #ffff00;"><strong>1.000.000
-                                                            đồng</strong></span>. Nếu đúng cả 4 đội sẽ nhận được <span
+                                                <p>– Dự đoán 4 Team mạnh nhất lọt vào Vòng Bán kết. Hội viên dự đoán đúng
+                                                    3/4 Team sẽ nhận được <span style="color: #ffff00;"><strong>1.000.000
+                                                            đồng</strong></span>. Nếu đúng cả 4 Team sẽ nhận được <span
                                                         style="color: #ffff00;"><strong>3.000.000 đồng</strong></span>.
                                                 </p>
                                                 <p>Thời gian dự đoán đết hết <span
                                                         style="color: #00ffff;"><strong>04/07</strong></span>.<br />Giới
                                                     hạn <span style="color: #00ffff;"><strong>10 tài
-                                                            khoản</strong></span> dự đoán đúng và nhanh nhất.</p>
+                                                            khoản</strong></span> dự đoán đúng và nhEngland nhất.</p>
                                             </div>
                                         </div>
 
                                         <div id="accordion-3546395525" class="accordion-item">
                                             <a id="accordion-3546395525-label" class="accordion-title plain"
-                                                href="#accordion-item-dỰ-ĐoÁn-ĐỘi-vÔ-ĐỊch-vÀ-tỶ-sỐ-trẬn-ĐẤu"
+                                                href="#accordion-item-dỰ-ĐoÁn-Team-vÔ-ĐỊch-vÀ-tỶ-sỐ-trẬn-ĐẤu"
                                                 aria-expanded="false" aria-controls="accordion-3546395525-content">
                                                 <button class="toggle" aria-label="Chuyển đổi"><i
                                                         class="icon-angle-down"></i></button>
-                                                <span>DỰ ĐOÁN ĐỘI VÔ ĐỊCH VÀ TỶ SỐ TRẬN ĐẤU</span>
+                                                <span>DỰ ĐOÁN Team VÔ ĐỊCH VÀ TỶ SỐ TRẬN ĐẤU</span>
                                             </a>
                                             <div id="accordion-3546395525-content" class="accordion-inner"
                                                 aria-labelledby="accordion-3546395525-label">
 
-                                                <p>– Dự đoán đúng đội VÔ ĐỊCH sẽ nhận được <span
+                                                <p>– Dự đoán đúng Team VÔ ĐỊCH sẽ nhận được <span
                                                         style="color: #ffff00;"><strong>2.000.000 đồng</strong></span>.
                                                     Đồng thời nếu dự đoán đúng luôn cả TỶ SỐ trong 90 phút trận Chung
                                                     kết sẽ nhận được tổng số tiền là <span
@@ -504,7 +1021,7 @@ $csrf_token = $_SESSION['csrf_token'];
                                                 <p>Thời gian dự đoán đết hết <span
                                                         style="color: #00ffff;"><strong>11/07</strong></span>.<br />Giới
                                                     hạn <strong><span style="color: #00ffff;">05 tài
-                                                            khoản</span></strong> dự đoán đúng và nhanh nhất.</p>
+                                                            khoản</span></strong> dự đoán đúng và nhEngland nhất.</p>
                                             </div>
                                         </div>
 
@@ -528,762 +1045,6 @@ $csrf_token = $_SESSION['csrf_token'];
                     </div>
                 </section>
 
-                <section class="section dark" id="section_833233726">
-                    <div class="bg section-bg fill bg-fill  ">
-
-
-                        <div class="section-bg-overlay absolute fill"></div>
-
-
-                    </div>
-
-
-
-                    <div class="section-content relative">
-
-                        <span class="scroll-to" data-label="Scroll to: #dudoan1" data-bullet="false"
-                            data-link="#dudoan1" data-title="dudoan1"><a name="dudoan1"></a></span>
-                        <div class="row" id="row-1603114019">
-
-                            <div id="col-1522368423" class="col medium-6 small-12 large-6" data-animate="fadeInLeft">
-                                <div class="col-inner">
-
-
-                                    <div class="img has-hover x md-x lg-x y md-y lg-y" id="image_518081423">
-                                        <div data-animate="fadeInLeft">
-                                            <div class="img-inner dark">
-                                                <img loading="lazy" decoding="async" width="2344" height="261"
-                                                    src="https://euro.gmkb.live/wp-content/uploads/2024/04/Du-doan-8-doi-vao-tu-ket-2.png"
-                                                    class="attachment-original size-original" alt=""
-                                                    srcset="https://euro.gmkb.live/wp-content/uploads/2024/04/Du-doan-8-doi-vao-tu-ket-2.png 2344w, https://euro.gmkb.live/wp-content/uploads/2024/04/Du-doan-8-doi-vao-tu-ket-2-300x33.png 300w, https://euro.gmkb.live/wp-content/uploads/2024/04/Du-doan-8-doi-vao-tu-ket-2-1024x114.png 1024w, https://euro.gmkb.live/wp-content/uploads/2024/04/Du-doan-8-doi-vao-tu-ket-2-768x86.png 768w, https://euro.gmkb.live/wp-content/uploads/2024/04/Du-doan-8-doi-vao-tu-ket-2-1536x171.png 1536w, https://euro.gmkb.live/wp-content/uploads/2024/04/Du-doan-8-doi-vao-tu-ket-2-2048x228.png 2048w"
-                                                    sizes="(max-width: 2344px) 100vw, 2344px" />
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <p style="text-align: justify;">– Dự đoán 8 đội mạnh nhất lọt vào Vòng Tứ kết. Đúng
-                                        1 đội được <span style="color: #ffff00;"><strong>100.000 đồng</strong></span>,
-                                        nếu trúng cả 8 đội Hội viên sẽ nhận được <span
-                                            style="color: #ffff00;"><strong>2.000.000 đồng</strong></span>.<br />&#8211;
-                                        Thời gian dự đoán đến hết <span
-                                            style="color: #00ffff;"><strong>28/06</strong></span><br />&#8211; <span
-                                            style="color: #00ffff;"><strong>200 giải</strong></span> (Tính từ tài khoản
-                                        dự đoán chính xác nhất)</p>
-                                </div>
-                            </div>
-
-
-
-                            <div id="col-365686457" class="col medium-6 small-12 large-6" data-animate="fadeInRight">
-                                <div class="col-inner">
-
-
-                                    <div id="timer-246813316" class="ux-timer light" data-text-plural="s"
-                                        data-text-hour="Giờ" data-text-day="Ngày" data-text-week="Tuần"
-                                        data-text-min="Phút" data-text-sec="Giây" data-text-hour-p="Giờ"
-                                        data-text-day-p="Ngày" data-text-week-p="Tuần" data-text-min-p="Phút"
-                                        data-text-sec-p="Giây" data-countdown="2024/06/28 23:59"><span>&nbsp;<div
-                                                class="loading-spin dark centered"></div><strong>&nbsp;</strong></span>
-                                    </div>
-
-
-                                    <div class="wpcf7 no-js" id="wpcf7-f273-p8-o1" lang="vi" dir="ltr">
-                                        <div class="screen-reader-response">
-                                            <p role="status" aria-live="polite" aria-atomic="true"></p>
-                                            <ul></ul>
-                                        </div>
-                                        <form id="8-doi-tu-ket" onsubmit="return tuket();">
-                                                <input type="hidden" name="csrf_token" value="<?php echo $csrf_token; ?>">
-                                            <div id="responsive-form" class="clearfix">
-                                                <div class="form-row">
-                                                    <div class="column-half" style="width: 100%">
-                                                        <p>TK Hola Bet <span class="wpcf7-form-control-wrap"
-                                                                data-name="your-name"><input size="40"
-                                                                    class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
-                                                                    aria-required="true" aria-invalid="false" value=""
-                                                                    type="text" name="tu_ket_tk_hola" required /></span>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="form-row">
-                                                    <div class="column-half">
-                                                        <p>Đội 1 <span class="wpcf7-form-control-wrap"
-                                                                data-name="menu-634"><select class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false"
-                                                                    name="8-doi-1">
-                                                                    <option value="">&#8212;Vui lòng chọn&#8212;
-                                                                    </option>
-                                                                    <option value="Đức">Đức</option>
-                                                                    <option value="Scotland">Scotland</option>
-                                                                    <option value="Hungary">Hungary</option>
-                                                                    <option value="Thụy Sĩ">Thụy Sĩ</option>
-                                                                    <option value="Tây Ban Nha">Tây Ban Nha</option>
-                                                                    <option value="Croatia">Croatia</option>
-                                                                    <option value="Ý">Ý</option>
-                                                                    <option value="Albania">Albania</option>
-                                                                    <option value="Slovenia">Slovenia</option>
-                                                                    <option value="Đan Mạch">Đan Mạch</option>
-                                                                    <option value="Serbia">Serbia</option>
-                                                                    <option value="Anh">Anh</option>
-                                                                    <option value="Ba Lan">Ba Lan</option>
-                                                                    <option value="Hà Lan">Hà Lan</option>
-                                                                    <option value="Áo">Áo</option>
-                                                                    <option value="Pháp">Pháp</option>
-                                                                    <option value="Bỉ">Bỉ</option>
-                                                                    <option value="Slovakia">Slovakia</option>
-                                                                    <option value="Romania">Romania</option>
-                                                                    <option value="Ukrainie">Ukrainie</option>
-                                                                    <option value="Thổ Nhĩ Kỳ">Thổ Nhĩ Kỳ</option>
-                                                                    <option value="Georgia">Georgia</option>
-                                                                    <option value="Bồ Đào Nha">Bồ Đào Nha</option>
-                                                                    <option value="Séc">Séc</option>
-                                                                </select></span>
-                                                        </p>
-                                                    </div>
-                                                    <div class="column-half">
-                                                        <p>Đội 2 <span class="wpcf7-form-control-wrap"
-                                                                data-name="menu-893"><select
-                                                                    class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required"
-                                                                    aria-required="true" aria-invalid="false"
-                                                                    name="8-doi-2">
-                                                                    <option value="">&#8212;Vui lòng chọn&#8212;
-                                                                    </option>
-                                                                    <option value="Đức">Đức</option>
-                                                                    <option value="Scotland">Scotland</option>
-                                                                    <option value="Hungary">Hungary</option>
-                                                                    <option value="Thụy Sĩ">Thụy Sĩ</option>
-                                                                    <option value="Tây Ban Nha">Tây Ban Nha</option>
-                                                                    <option value="Croatia">Croatia</option>
-                                                                    <option value="Ý">Ý</option>
-                                                                    <option value="Albania">Albania</option>
-                                                                    <option value="Slovenia">Slovenia</option>
-                                                                    <option value="Đan Mạch">Đan Mạch</option>
-                                                                    <option value="Serbia">Serbia</option>
-                                                                    <option value="Anh">Anh</option>
-                                                                    <option value="Ba Lan">Ba Lan</option>
-                                                                    <option value="Hà Lan">Hà Lan</option>
-                                                                    <option value="Áo">Áo</option>
-                                                                    <option value="Pháp">Pháp</option>
-                                                                    <option value="Bỉ">Bỉ</option>
-                                                                    <option value="Slovakia">Slovakia</option>
-                                                                    <option value="Romania">Romania</option>
-                                                                    <option value="Ukrainie">Ukrainie</option>
-                                                                    <option value="Thổ Nhĩ Kỳ">Thổ Nhĩ Kỳ</option>
-                                                                    <option value="Georgia">Georgia</option>
-                                                                    <option value="Bồ Đào Nha">Bồ Đào Nha</option>
-                                                                    <option value="Séc">Séc</option>
-                                                                </select></span>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="form-row">
-                                                    <div class="column-half">
-                                                        <p>Đội 3 <span class="wpcf7-form-control-wrap"
-                                                                data-name="menu-499"><select
-                                                                    class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required"
-                                                                    aria-required="true" aria-invalid="false"
-                                                                    name="8-doi-3">
-                                                                    <option value="">&#8212;Vui lòng chọn&#8212;
-                                                                    </option>
-                                                                    <option value="Đức">Đức</option>
-                                                                    <option value="Scotland">Scotland</option>
-                                                                    <option value="Hungary">Hungary</option>
-                                                                    <option value="Thụy Sĩ">Thụy Sĩ</option>
-                                                                    <option value="Tây Ban Nha">Tây Ban Nha</option>
-                                                                    <option value="Croatia">Croatia</option>
-                                                                    <option value="Ý">Ý</option>
-                                                                    <option value="Albania">Albania</option>
-                                                                    <option value="Slovenia">Slovenia</option>
-                                                                    <option value="Đan Mạch">Đan Mạch</option>
-                                                                    <option value="Serbia">Serbia</option>
-                                                                    <option value="Anh">Anh</option>
-                                                                    <option value="Ba Lan">Ba Lan</option>
-                                                                    <option value="Hà Lan">Hà Lan</option>
-                                                                    <option value="Áo">Áo</option>
-                                                                    <option value="Pháp">Pháp</option>
-                                                                    <option value="Bỉ">Bỉ</option>
-                                                                    <option value="Slovakia">Slovakia</option>
-                                                                    <option value="Romania">Romania</option>
-                                                                    <option value="Ukrainie">Ukrainie</option>
-                                                                    <option value="Thổ Nhĩ Kỳ">Thổ Nhĩ Kỳ</option>
-                                                                    <option value="Georgia">Georgia</option>
-                                                                    <option value="Bồ Đào Nha">Bồ Đào Nha</option>
-                                                                    <option value="Séc">Séc</option>
-                                                                </select></span>
-                                                        </p>
-                                                    </div>
-                                                    <div class="column-half">
-                                                        <p>Đội 4 <span class="wpcf7-form-control-wrap"
-                                                                data-name="menu-773"><select
-                                                                    class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required"
-                                                                    aria-required="true" aria-invalid="false"
-                                                                    name="8-doi-4">
-                                                                    <option value="">&#8212;Vui lòng chọn&#8212;
-                                                                    </option>
-                                                                    <option value="Đức">Đức</option>
-                                                                    <option value="Scotland">Scotland</option>
-                                                                    <option value="Hungary">Hungary</option>
-                                                                    <option value="Thụy Sĩ">Thụy Sĩ</option>
-                                                                    <option value="Tây Ban Nha">Tây Ban Nha</option>
-                                                                    <option value="Croatia">Croatia</option>
-                                                                    <option value="Ý">Ý</option>
-                                                                    <option value="Albania">Albania</option>
-                                                                    <option value="Slovenia">Slovenia</option>
-                                                                    <option value="Đan Mạch">Đan Mạch</option>
-                                                                    <option value="Serbia">Serbia</option>
-                                                                    <option value="Anh">Anh</option>
-                                                                    <option value="Ba Lan">Ba Lan</option>
-                                                                    <option value="Hà Lan">Hà Lan</option>
-                                                                    <option value="Áo">Áo</option>
-                                                                    <option value="Pháp">Pháp</option>
-                                                                    <option value="Bỉ">Bỉ</option>
-                                                                    <option value="Slovakia">Slovakia</option>
-                                                                    <option value="Romania">Romania</option>
-                                                                    <option value="Ukrainie">Ukrainie</option>
-                                                                    <option value="Thổ Nhĩ Kỳ">Thổ Nhĩ Kỳ</option>
-                                                                    <option value="Georgia">Georgia</option>
-                                                                    <option value="Bồ Đào Nha">Bồ Đào Nha</option>
-                                                                    <option value="Séc">Séc</option>
-                                                                </select></span>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="form-row">
-                                                    <div class="column-half">
-                                                        <p>Đội 5 <span class="wpcf7-form-control-wrap"
-                                                                data-name="menu-376"><select
-                                                                    class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required"
-                                                                    aria-required="true" aria-invalid="false"
-                                                                    name="8-doi-5">
-                                                                    <option value="">&#8212;Vui lòng chọn&#8212;
-                                                                    </option>
-                                                                    <option value="Đức">Đức</option>
-                                                                    <option value="Scotland">Scotland</option>
-                                                                    <option value="Hungary">Hungary</option>
-                                                                    <option value="Thụy Sĩ">Thụy Sĩ</option>
-                                                                    <option value="Tây Ban Nha">Tây Ban Nha</option>
-                                                                    <option value="Croatia">Croatia</option>
-                                                                    <option value="Ý">Ý</option>
-                                                                    <option value="Albania">Albania</option>
-                                                                    <option value="Slovenia">Slovenia</option>
-                                                                    <option value="Đan Mạch">Đan Mạch</option>
-                                                                    <option value="Serbia">Serbia</option>
-                                                                    <option value="Anh">Anh</option>
-                                                                    <option value="Ba Lan">Ba Lan</option>
-                                                                    <option value="Hà Lan">Hà Lan</option>
-                                                                    <option value="Áo">Áo</option>
-                                                                    <option value="Pháp">Pháp</option>
-                                                                    <option value="Bỉ">Bỉ</option>
-                                                                    <option value="Slovakia">Slovakia</option>
-                                                                    <option value="Romania">Romania</option>
-                                                                    <option value="Ukrainie">Ukrainie</option>
-                                                                    <option value="Thổ Nhĩ Kỳ">Thổ Nhĩ Kỳ</option>
-                                                                    <option value="Georgia">Georgia</option>
-                                                                    <option value="Bồ Đào Nha">Bồ Đào Nha</option>
-                                                                    <option value="Séc">Séc</option>
-                                                                </select></span>
-                                                        </p>
-                                                    </div>
-                                                    <div class="column-half">
-                                                        <p>Đội 6 <span class="wpcf7-form-control-wrap"
-                                                                data-name="menu-199"><select
-                                                                    class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required"
-                                                                    aria-required="true" aria-invalid="false"
-                                                                    name="8-doi-6">
-                                                                    <option value="">&#8212;Vui lòng chọn&#8212;
-                                                                    </option>
-                                                                    <option value="Đức">Đức</option>
-                                                                    <option value="Scotland">Scotland</option>
-                                                                    <option value="Hungary">Hungary</option>
-                                                                    <option value="Thụy Sĩ">Thụy Sĩ</option>
-                                                                    <option value="Tây Ban Nha">Tây Ban Nha</option>
-                                                                    <option value="Croatia">Croatia</option>
-                                                                    <option value="Ý">Ý</option>
-                                                                    <option value="Albania">Albania</option>
-                                                                    <option value="Slovenia">Slovenia</option>
-                                                                    <option value="Đan Mạch">Đan Mạch</option>
-                                                                    <option value="Serbia">Serbia</option>
-                                                                    <option value="Anh">Anh</option>
-                                                                    <option value="Ba Lan">Ba Lan</option>
-                                                                    <option value="Hà Lan">Hà Lan</option>
-                                                                    <option value="Áo">Áo</option>
-                                                                    <option value="Pháp">Pháp</option>
-                                                                    <option value="Bỉ">Bỉ</option>
-                                                                    <option value="Slovakia">Slovakia</option>
-                                                                    <option value="Romania">Romania</option>
-                                                                    <option value="Ukrainie">Ukrainie</option>
-                                                                    <option value="Thổ Nhĩ Kỳ">Thổ Nhĩ Kỳ</option>
-                                                                    <option value="Georgia">Georgia</option>
-                                                                    <option value="Bồ Đào Nha">Bồ Đào Nha</option>
-                                                                    <option value="Séc">Séc</option>
-                                                                </select></span>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="form-row">
-                                                    <div class="column-half">
-                                                        <p>Đội 7 <span class="wpcf7-form-control-wrap"
-                                                                data-name="menu-680"><select
-                                                                    class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required"
-                                                                    aria-required="true" aria-invalid="false"
-                                                                    name="8-doi-7">
-                                                                    <option value="">&#8212;Vui lòng chọn&#8212;
-                                                                    </option>
-                                                                    <option value="Đức">Đức</option>
-                                                                    <option value="Scotland">Scotland</option>
-                                                                    <option value="Hungary">Hungary</option>
-                                                                    <option value="Thụy Sĩ">Thụy Sĩ</option>
-                                                                    <option value="Tây Ban Nha">Tây Ban Nha</option>
-                                                                    <option value="Croatia">Croatia</option>
-                                                                    <option value="Ý">Ý</option>
-                                                                    <option value="Albania">Albania</option>
-                                                                    <option value="Slovenia">Slovenia</option>
-                                                                    <option value="Đan Mạch">Đan Mạch</option>
-                                                                    <option value="Serbia">Serbia</option>
-                                                                    <option value="Anh">Anh</option>
-                                                                    <option value="Ba Lan">Ba Lan</option>
-                                                                    <option value="Hà Lan">Hà Lan</option>
-                                                                    <option value="Áo">Áo</option>
-                                                                    <option value="Pháp">Pháp</option>
-                                                                    <option value="Bỉ">Bỉ</option>
-                                                                    <option value="Slovakia">Slovakia</option>
-                                                                    <option value="Romania">Romania</option>
-                                                                    <option value="Ukrainie">Ukrainie</option>
-                                                                    <option value="Thổ Nhĩ Kỳ">Thổ Nhĩ Kỳ</option>
-                                                                    <option value="Georgia">Georgia</option>
-                                                                    <option value="Bồ Đào Nha">Bồ Đào Nha</option>
-                                                                    <option value="Séc">Séc</option>
-                                                                </select></span>
-                                                        </p>
-                                                    </div>
-                                                    <div class="column-half">
-                                                        <p>Đội 8 <span class="wpcf7-form-control-wrap"
-                                                                data-name="menu-13"><select
-                                                                    class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required"
-                                                                    aria-required="true" aria-invalid="false"
-                                                                    name="8-doi-8">
-                                                                    <option value="">&#8212;Vui lòng chọn&#8212;
-                                                                    </option>
-                                                                    <option value="Đức">Đức</option>
-                                                                    <option value="Scotland">Scotland</option>
-                                                                    <option value="Hungary">Hungary</option>
-                                                                    <option value="Thụy Sĩ">Thụy Sĩ</option>
-                                                                    <option value="Tây Ban Nha">Tây Ban Nha</option>
-                                                                    <option value="Croatia">Croatia</option>
-                                                                    <option value="Ý">Ý</option>
-                                                                    <option value="Albania">Albania</option>
-                                                                    <option value="Slovenia">Slovenia</option>
-                                                                    <option value="Đan Mạch">Đan Mạch</option>
-                                                                    <option value="Serbia">Serbia</option>
-                                                                    <option value="Anh">Anh</option>
-                                                                    <option value="Ba Lan">Ba Lan</option>
-                                                                    <option value="Hà Lan">Hà Lan</option>
-                                                                    <option value="Áo">Áo</option>
-                                                                    <option value="Pháp">Pháp</option>
-                                                                    <option value="Bỉ">Bỉ</option>
-                                                                    <option value="Slovakia">Slovakia</option>
-                                                                    <option value="Romania">Romania</option>
-                                                                    <option value="Ukrainie">Ukrainie</option>
-                                                                    <option value="Thổ Nhĩ Kỳ">Thổ Nhĩ Kỳ</option>
-                                                                    <option value="Georgia">Georgia</option>
-                                                                    <option value="Bồ Đào Nha">Bồ Đào Nha</option>
-                                                                    <option value="Séc">Séc</option>
-                                                                </select></span>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="form-row">
-                                                    <div class="column-full"><input style="width:100%" class="button-submit2" type="submit" value="Gửi dự đoán"/>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </form>
-                                    </div>
-
-                                </div>
-                            </div>
-
-
-                        </div>
-                    </div>
-                </section>
-
-                <section class="section dark" id="section_2103704594">
-                    <div class="bg section-bg fill bg-fill  ">
-
-
-                        <div class="section-bg-overlay absolute fill"></div>
-
-
-                    </div>
-
-
-
-                    <div class="section-content relative">
-
-                        <span class="scroll-to" data-label="Scroll to: #dudoan2" data-bullet="false"
-                            data-link="#dudoan2" data-title="dudoan2"><a name="dudoan2"></a></span>
-                        <div class="row" id="row-1236141473">
-
-                            <div id="col-1071399622" class="col medium-6 small-12 large-6" data-animate="fadeInLeft">
-                                <div class="col-inner">
-
-
-                                    <div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1496252401">
-                                        <div data-animate="fadeInLeft">
-                                            <div class="img-inner dark">
-                                                <img loading="lazy" decoding="async" width="2438" height="256"
-                                                    src="https://euro.gmkb.live/wp-content/uploads/2024/04/Du-doan-4-doi-vao-ban-ket-2.png"
-                                                    class="attachment-original size-original" alt=""
-                                                    srcset="https://euro.gmkb.live/wp-content/uploads/2024/04/Du-doan-4-doi-vao-ban-ket-2.png 2438w, https://euro.gmkb.live/wp-content/uploads/2024/04/Du-doan-4-doi-vao-ban-ket-2-300x32.png 300w, https://euro.gmkb.live/wp-content/uploads/2024/04/Du-doan-4-doi-vao-ban-ket-2-1024x108.png 1024w, https://euro.gmkb.live/wp-content/uploads/2024/04/Du-doan-4-doi-vao-ban-ket-2-768x81.png 768w, https://euro.gmkb.live/wp-content/uploads/2024/04/Du-doan-4-doi-vao-ban-ket-2-1536x161.png 1536w, https://euro.gmkb.live/wp-content/uploads/2024/04/Du-doan-4-doi-vao-ban-ket-2-2048x215.png 2048w"
-                                                    sizes="(max-width: 2438px) 100vw, 2438px" />
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <p>– Dự đoán 4 đội mạnh nhất lọt vào Vòng Bán kết. Hội viên dự đoán đúng 3/4 đội sẽ
-                                        nhận được <span style="color: #ffff00;"><strong>1.000.000 đồng</strong></span>.
-                                        Nếu đúng cả 4 đội sẽ nhận được <span style="color: #ffff00;"><strong>3.000.000
-                                                đồng</strong></span>.</p>
-                                    <p>Thời gian dự đoán đết hết <span
-                                            style="color: #00ffff;"><strong>04/07</strong></span>.<br />Giới hạn <span
-                                            style="color: #00ffff;"><strong>10 tài khoản</strong></span> dự đoán đúng và
-                                        nhanh nhất.</p>
-                                </div>
-                            </div>
-
-
-
-                            <div id="col-1320714753" class="col medium-6 small-12 large-6" data-animate="fadeInRight">
-                                <div class="col-inner">
-
-
-                                    <div id="timer-464647548" class="ux-timer light" data-text-plural="s"
-                                        data-text-hour="Giờ" data-text-day="Ngày" data-text-week="Tuần"
-                                        data-text-min="Phút" data-text-sec="Giây" data-text-hour-p="Giờ"
-                                        data-text-day-p="Ngày" data-text-week-p="Tuần" data-text-min-p="Phút"
-                                        data-text-sec-p="Giây" data-countdown="2024/07/04 23:59"><span>&nbsp;<div
-                                                class="loading-spin dark centered"></div><strong>&nbsp;</strong></span>
-                                    </div>
-
-                                    <div class="wpcf7 no-js" id="wpcf7-f280-p8-o2" lang="vi" dir="ltr">
-                                        <div class="screen-reader-response">
-                                            <p role="status" aria-live="polite" aria-atomic="true"></p>
-                                            <ul></ul>
-                                        </div>
-                                        <form id="4-doi-ban-ket" onsubmit="return banket();">
-                                            <input type="hidden" name="csrf_token" value="<?php echo $csrf_token; ?>">
-                                            <div id="responsive-form" class="clearfix">
-                                                <div class="form-row">
-                                                    <div class="column-half" style="width:100%">
-                                                        <p>TK Hola BET<span class="wpcf7-form-control-wrap" ><input size="40"
-                                                                    class="wpcf7-form-control" type="text" name="ban_ket_tk_hola" required/></span>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="form-row">
-                                                    <div class="column-half">
-                                                        <p>Đội 1 <span class="wpcf7-form-control-wrap"
-                                                                data-name="menu-634"><select class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false"
-                                                                    name="8-doi-1">
-                                                                    <option value="">&#8212;Vui lòng chọn&#8212;
-                                                                    </option>
-                                                                    <option value="Đức">Đức</option>
-                                                                    <option value="Scotland">Scotland</option>
-                                                                    <option value="Hungary">Hungary</option>
-                                                                    <option value="Thụy Sĩ">Thụy Sĩ</option>
-                                                                    <option value="Tây Ban Nha">Tây Ban Nha</option>
-                                                                    <option value="Croatia">Croatia</option>
-                                                                    <option value="Ý">Ý</option>
-                                                                    <option value="Albania">Albania</option>
-                                                                    <option value="Slovenia">Slovenia</option>
-                                                                    <option value="Đan Mạch">Đan Mạch</option>
-                                                                    <option value="Serbia">Serbia</option>
-                                                                    <option value="Anh">Anh</option>
-                                                                    <option value="Ba Lan">Ba Lan</option>
-                                                                    <option value="Hà Lan">Hà Lan</option>
-                                                                    <option value="Áo">Áo</option>
-                                                                    <option value="Pháp">Pháp</option>
-                                                                    <option value="Bỉ">Bỉ</option>
-                                                                    <option value="Slovakia">Slovakia</option>
-                                                                    <option value="Romania">Romania</option>
-                                                                    <option value="Ukrainie">Ukrainie</option>
-                                                                    <option value="Thổ Nhĩ Kỳ">Thổ Nhĩ Kỳ</option>
-                                                                    <option value="Georgia">Georgia</option>
-                                                                    <option value="Bồ Đào Nha">Bồ Đào Nha</option>
-                                                                    <option value="Séc">Séc</option>
-                                                                </select></span>
-                                                        </p>
-                                                    </div>
-                                                    <div class="column-half">
-                                                        <p>Đội 2 <span class="wpcf7-form-control-wrap"
-                                                                data-name="menu-893"><select
-                                                                    class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required"
-                                                                    aria-required="true" aria-invalid="false"
-                                                                    name="8-doi-2">
-                                                                    <option value="">&#8212;Vui lòng chọn&#8212;
-                                                                    </option>
-                                                                    <option value="Đức">Đức</option>
-                                                                    <option value="Scotland">Scotland</option>
-                                                                    <option value="Hungary">Hungary</option>
-                                                                    <option value="Thụy Sĩ">Thụy Sĩ</option>
-                                                                    <option value="Tây Ban Nha">Tây Ban Nha</option>
-                                                                    <option value="Croatia">Croatia</option>
-                                                                    <option value="Ý">Ý</option>
-                                                                    <option value="Albania">Albania</option>
-                                                                    <option value="Slovenia">Slovenia</option>
-                                                                    <option value="Đan Mạch">Đan Mạch</option>
-                                                                    <option value="Serbia">Serbia</option>
-                                                                    <option value="Anh">Anh</option>
-                                                                    <option value="Ba Lan">Ba Lan</option>
-                                                                    <option value="Hà Lan">Hà Lan</option>
-                                                                    <option value="Áo">Áo</option>
-                                                                    <option value="Pháp">Pháp</option>
-                                                                    <option value="Bỉ">Bỉ</option>
-                                                                    <option value="Slovakia">Slovakia</option>
-                                                                    <option value="Romania">Romania</option>
-                                                                    <option value="Ukrainie">Ukrainie</option>
-                                                                    <option value="Thổ Nhĩ Kỳ">Thổ Nhĩ Kỳ</option>
-                                                                    <option value="Georgia">Georgia</option>
-                                                                    <option value="Bồ Đào Nha">Bồ Đào Nha</option>
-                                                                    <option value="Séc">Séc</option>
-                                                                </select></span>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="form-row">
-                                                    <div class="column-half">
-                                                        <p>Đội 3 <span class="wpcf7-form-control-wrap"
-                                                                data-name="menu-499"><select
-                                                                    class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required"
-                                                                    aria-required="true" aria-invalid="false"
-                                                                    name="8-doi-3">
-                                                                    <option value="">&#8212;Vui lòng chọn&#8212;
-                                                                    </option>
-                                                                    <option value="Đức">Đức</option>
-                                                                    <option value="Scotland">Scotland</option>
-                                                                    <option value="Hungary">Hungary</option>
-                                                                    <option value="Thụy Sĩ">Thụy Sĩ</option>
-                                                                    <option value="Tây Ban Nha">Tây Ban Nha</option>
-                                                                    <option value="Croatia">Croatia</option>
-                                                                    <option value="Ý">Ý</option>
-                                                                    <option value="Albania">Albania</option>
-                                                                    <option value="Slovenia">Slovenia</option>
-                                                                    <option value="Đan Mạch">Đan Mạch</option>
-                                                                    <option value="Serbia">Serbia</option>
-                                                                    <option value="Anh">Anh</option>
-                                                                    <option value="Ba Lan">Ba Lan</option>
-                                                                    <option value="Hà Lan">Hà Lan</option>
-                                                                    <option value="Áo">Áo</option>
-                                                                    <option value="Pháp">Pháp</option>
-                                                                    <option value="Bỉ">Bỉ</option>
-                                                                    <option value="Slovakia">Slovakia</option>
-                                                                    <option value="Romania">Romania</option>
-                                                                    <option value="Ukrainie">Ukrainie</option>
-                                                                    <option value="Thổ Nhĩ Kỳ">Thổ Nhĩ Kỳ</option>
-                                                                    <option value="Georgia">Georgia</option>
-                                                                    <option value="Bồ Đào Nha">Bồ Đào Nha</option>
-                                                                    <option value="Séc">Séc</option>
-                                                                </select></span>
-                                                        </p>
-                                                    </div>
-                                                    <div class="column-half">
-                                                        <p>Đội 4 <span class="wpcf7-form-control-wrap"
-                                                                data-name="menu-773"><select
-                                                                    class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required"
-                                                                    aria-required="true" aria-invalid="false"
-                                                                    name="8-doi-4">
-                                                                    <option value="">&#8212;Vui lòng chọn&#8212;
-                                                                    </option>
-                                                                    <option value="Đức">Đức</option>
-                                                                    <option value="Scotland">Scotland</option>
-                                                                    <option value="Hungary">Hungary</option>
-                                                                    <option value="Thụy Sĩ">Thụy Sĩ</option>
-                                                                    <option value="Tây Ban Nha">Tây Ban Nha</option>
-                                                                    <option value="Croatia">Croatia</option>
-                                                                    <option value="Ý">Ý</option>
-                                                                    <option value="Albania">Albania</option>
-                                                                    <option value="Slovenia">Slovenia</option>
-                                                                    <option value="Đan Mạch">Đan Mạch</option>
-                                                                    <option value="Serbia">Serbia</option>
-                                                                    <option value="Anh">Anh</option>
-                                                                    <option value="Ba Lan">Ba Lan</option>
-                                                                    <option value="Hà Lan">Hà Lan</option>
-                                                                    <option value="Áo">Áo</option>
-                                                                    <option value="Pháp">Pháp</option>
-                                                                    <option value="Bỉ">Bỉ</option>
-                                                                    <option value="Slovakia">Slovakia</option>
-                                                                    <option value="Romania">Romania</option>
-                                                                    <option value="Ukrainie">Ukrainie</option>
-                                                                    <option value="Thổ Nhĩ Kỳ">Thổ Nhĩ Kỳ</option>
-                                                                    <option value="Georgia">Georgia</option>
-                                                                    <option value="Bồ Đào Nha">Bồ Đào Nha</option>
-                                                                    <option value="Séc">Séc</option>
-                                                                </select></span>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="form-row">
-                                                    <div class="column-full">
-                                                        <p><input class="wpcf7-form-control wpcf7-submit has-spinner"
-                                                                type="submit" value="GỬI DỰ ĐOÁN" />
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </form>
-                                    </div>
-
-                                </div>
-                            </div>
-
-
-                        </div>
-                    </div>
-                </section>
-
-                <section class="section dark" id="section_1057097998">
-                    <div class="bg section-bg fill bg-fill  ">
-
-
-                        <div class="section-bg-overlay absolute fill"></div>
-
-
-                    </div>
-
-
-
-                    <div class="section-content relative">
-
-                        <span class="scroll-to" data-label="Scroll to: #dudoan3" data-bullet="false"
-                            data-link="#dudoan3" data-title="dudoan3"><a name="dudoan3"></a></span>
-                        <div class="row" id="row-1606988709">
-
-                            <div id="col-1847781390" class="col medium-6 small-12 large-6" data-animate="fadeInLeft">
-                                <div class="col-inner">
-
-
-                                    <div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1228512156">
-                                        <div data-animate="fadeInLeft">
-                                            <div class="img-inner dark">
-                                                <img loading="lazy" decoding="async" width="1898" height="265"
-                                                    src="https://euro.gmkb.live/wp-content/uploads/2024/04/Du-doan-doi-vo-dich-2.png"
-                                                    class="attachment-original size-original" alt=""
-                                                    srcset="https://euro.gmkb.live/wp-content/uploads/2024/04/Du-doan-doi-vo-dich-2.png 1898w, https://euro.gmkb.live/wp-content/uploads/2024/04/Du-doan-doi-vo-dich-2-300x42.png 300w, https://euro.gmkb.live/wp-content/uploads/2024/04/Du-doan-doi-vo-dich-2-1024x143.png 1024w, https://euro.gmkb.live/wp-content/uploads/2024/04/Du-doan-doi-vo-dich-2-768x107.png 768w, https://euro.gmkb.live/wp-content/uploads/2024/04/Du-doan-doi-vo-dich-2-1536x214.png 1536w"
-                                                    sizes="(max-width: 1898px) 100vw, 1898px" />
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <p>– Dự đoán đúng đội VÔ ĐỊCH sẽ nhận được <span
-                                            style="color: #ffff00;"><strong>2.000.000 đồng</strong></span>. Đồng thời
-                                        nếu dự đoán đúng luôn cả TỶ SỐ trong 90 phút trận Chung kết sẽ nhận được tổng số
-                                        tiền là <span style="color: #ffff00;"><strong>5.000.000 đồng</strong></span>.
-                                    </p>
-                                    <p>Thời gian dự đoán đết hết <span
-                                            style="color: #00ffff;"><strong>11/07</strong></span>.<br />Giới hạn
-                                        <strong><span style="color: #00ffff;">05 tài khoản</span></strong> dự đoán đúng
-                                        và nhanh nhất.
-                                    </p>
-                                </div>
-                            </div>
-
-
-
-                            <div id="col-850134879" class="col medium-6 small-12 large-6" data-animate="fadeInRight">
-                                <div class="col-inner">
-
-
-                                    <div id="timer-1246545593" class="ux-timer light" data-text-plural="s"
-                                        data-text-hour="Giờ" data-text-day="Ngày" data-text-week="Tuần"
-                                        data-text-min="Phút" data-text-sec="Giây" data-text-hour-p="Giờ"
-                                        data-text-day-p="Ngày" data-text-week-p="Tuần" data-text-min-p="Phút"
-                                        data-text-sec-p="Giây" data-countdown="2024/07/11 23:59"><span>&nbsp;<div
-                                                class="loading-spin dark centered"></div><strong>&nbsp;</strong></span>
-                                    </div>
-
-
-                                    <div class="wpcf7 no-js" id="wpcf7-f281-p8-o3" lang="vi" dir="ltr">
-                                        <div class="screen-reader-response">
-                                            <p role="status" aria-live="polite" aria-atomic="true"></p>
-                                            <ul></ul>
-                                        </div>
-                                        <form id="vo-dich" onsubmit="return vodich();">
-                                            <input type="hidden" name="csrf_token" value="<?php echo $csrf_token; ?>">
-                                            <div id="responsive-form" class="clearfix">
-                                                <div class="form-row">
-                                                    <div class="column-half" style="width: 100%">
-                                                        <p>TK Hola BET<span class="wpcf7-form-control-wrap"><input size="40"
-                                                                    class="wpcf7-form-control"
-                                                                    aria-required="true" aria-invalid="false"
-                                                                    type="text" name="tk_hola" required/></span>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="form-row">
-                                                    <div class="column-half">
-                                                        <p>Đội vô địch <span class="wpcf7-form-control-wrap"
-                                                                data-name="menu-634"><select
-                                                                    class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required"
-                                                                    aria-required="true" aria-invalid="false"
-                                                                    name="doi-vo-dich">
-                                                                    <option value="">&#8212;Vui lòng chọn&#8212;
-                                                                    </option>
-                                                                    <option value="Đức">Đức</option>
-                                                                    <option value="Scotland">Scotland</option>
-                                                                    <option value="Hungary">Hungary</option>
-                                                                    <option value="Thụy Sĩ">Thụy Sĩ</option>
-                                                                    <option value="Tây Ban Nha">Tây Ban Nha</option>
-                                                                    <option value="Croatia">Croatia</option>
-                                                                    <option value="Ý">Ý</option>
-                                                                    <option value="Albania">Albania</option>
-                                                                    <option value="Slovenia">Slovenia</option>
-                                                                    <option value="Đan Mạch">Đan Mạch</option>
-                                                                    <option value="Serbia">Serbia</option>
-                                                                    <option value="Anh">Anh</option>
-                                                                    <option value="Ba Lan">Ba Lan</option>
-                                                                    <option value="Hà Lan">Hà Lan</option>
-                                                                    <option value="Áo">Áo</option>
-                                                                    <option value="Pháp">Pháp</option>
-                                                                    <option value="Bỉ">Bỉ</option>
-                                                                    <option value="Slovakia">Slovakia</option>
-                                                                    <option value="Romania">Romania</option>
-                                                                    <option value="Ukrainie">Ukrainie</option>
-                                                                    <option value="Thổ Nhĩ Kỳ">Thổ Nhĩ Kỳ</option>
-                                                                    <option value="Georgia">Georgia</option>
-                                                                    <option value="Bồ Đào Nha">Bồ Đào Nha</option>
-                                                                    <option value="Séc">Séc</option>
-                                                                </select></span>
-                                                        </p>
-                                                    </div>
-                                                    <div class="column-half">
-                                                        <p>Tỷ số trận đấu <span class="wpcf7-form-control-wrap"
-                                                                data-name="text-434"><input size="40"
-                                                                    class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
-                                                                    aria-required="true" aria-invalid="false" value=""
-                                                                    type="text" name="ty-so" placeholder="2-1" required/></span>
-                                                        </p>
-                                                    </div>
-                                                    <div class="form-row">
-                                                        <div class="column-full">
-                                                            <p><input
-                                                                    class="wpcf7-form-control wpcf7-submit has-spinner"
-                                                                    type="submit" value="GỬI DỰ ĐOÁN" />
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </form>
-                                    </div>
-
-                                </div>
-                            </div>
-
-
-                        </div>
-                    </div>
-                </section>
 
                 <section class="section dark" id="section_1442483630">
                     <div class="bg section-bg fill bg-fill  ">
@@ -1362,7 +1123,7 @@ $csrf_token = $_SESSION['csrf_token'];
                                 <div class="flex-row relative">
                                     <div class="flex-col flex-grow">
                                         <input type="search" class="search-field mb-0" name="s" value="" id="s"
-                                            placeholder="Tìm kiếm..." />
+                                            placeholder="Search ..." />
                                     </div>
                                     <div class="flex-col">
                                         <button type="submit"
@@ -1378,16 +1139,11 @@ $csrf_token = $_SESSION['csrf_token'];
                 </li>
                 <li
                     class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-24">
-                    <a href="#" aria-current="page">Trang chủ</a>
+                    <a href="#" aria-current="page">HOME PAGE</a>
                 </li>
-                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20"><a href="#">Lịch thi
-                        đấu</a></li>
-                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23"><a href="#">Sự kiện</a>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20"><a href="#">FIXTURES</a></li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23"><a href="#">Event</a>
                 </li>
-                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21"><a href="#">Trực
-                        tiếp</a></li>
-                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22"><a
-                        href="#">Highlight</a></li>
             </ul>
 
 
@@ -1397,24 +1153,20 @@ $csrf_token = $_SESSION['csrf_token'];
     </div>
     <div class="wcbongvipasia-nav">
         <ul>
-            <li><a href="#dudoan1" rel="nofollow"><i class="ticon-heart"></i>DỰ ĐOÁN 1</a></li>
-            <li><a href="#dudoan2" rel="nofollow"><i class="ticon-zalo-circle2"></i>DỰ ĐOÁN 2</a>
+            <li><a href="#dudoan1" rel="nofollow"><i class="ticon-heart"></i>PREDICTION 1</a></li>
+            <li><a href="#dudoan2" rel="nofollow"><i class="ticon-zalo-circle2"></i>PREDICTION 2</a>
             </li>
             <li class="phone-mobile">
                 <a href="#" rel="nofollow" class="button">
                     <span class="phone_animation animation-shadow">
                         <i class="icon-phone-w" aria-hidden="true"></i>
                     </span>
-                    <span class="btn_phone_txt">TRANG CHỦ</span>
+                    <span class="btn_phone_txt">HOME PAGE</span>
                 </a>
             </li>
-            <li><a href="#dudoan3" rel="nofollow"><i class="ticon-messenger"></i>DỰ ĐOÁN 3</a>
+            <li><a href="#dudoan3" rel="nofollow"><i class="ticon-messenger"></i>PREDICTION 3</a>
             </li>
-            <li><a href="#" class="chat_animation"><i class="bvasia" aria-hidden="true" title="LỊCH THI ĐẤU"></i>LỊCH
-                    THI ĐẤU</a>
-            </li>
-            <li><a href="#" rel="nofollow"><i class="ticon-angle-up" aria-hidden="true"
-                        title="Lịch thi đấu">LỊCH</i></a>
+            <li><a href="#" class="chat_animation"><i class="bvasia" aria-hidden="true" title="LỊCH THI ĐẤU"></i>FIXTURES</a>
             </li>
         </ul>
     </div>
@@ -1492,25 +1244,42 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
             });
         }
 
+        function selectResult(buttonId, resultId) {
+            // Xóa lớp 'selected' từ tất cả các nút trong cùng một bảng
+            const buttons = document.querySelectorAll(`button.result-button`);
+            buttons.forEach(function(button) {
+                if (button.parentElement.parentElement === document.getElementById(resultId).parentElement) {
+                    button.classList.remove('selected');
+                }
+            });
+
+            // Thêm lớp 'selected' vào nút được chọn
+            document.getElementById(buttonId).classList.add('selected');
+
+            // Đặt giá trị của input ẩn
+            document.getElementById(resultId).value = buttonId;
+        }
+
         // Hàm để ẩn popup loading
         function hideLoadingPopup() {
             Swal.close();
         }
+        
         // Hàm để gửi dữ liệu form bằng AJAX
-        function tuket() {
+        function everyday() {
             // Lấy dữ liệu từ form
             showLoadingPopup();
-            var formData = new FormData(document.getElementById("8-doi-tu-ket"));
+            var formData = new FormData(document.getElementById("every-day"));
 
             // Gửi dữ liệu bằng AJAX
             var xhr = new XMLHttpRequest();
-            xhr.open("POST", "submit-form/8-doi-tu-ket.php", true);
+            xhr.open("POST", "submit-form/every-day.php", true);
             xhr.onreadystatechange = function() {
                 if (xhr.readyState == 4 && xhr.status == 200) {
                     hideLoadingPopup();
-                    // Xử lý kết quả nhận được từ submit.php
+                    // Xử lItaly kết quả nhận được từ submit.php
                     var response = xhr.responseText;
-                    // Hiển thị popup thông báo
+                    // Hiển thị popup thông bAustria
                     Swal.fire({
                         icon: 'success',
                         title: 'Thành công!',
@@ -1524,7 +1293,33 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
             // Dừng form submit để tránh tải lại trang
             return false;
         }
+        function vao16doi() {
+            // Lấy dữ liệu từ form
+            showLoadingPopup();
+            var formData = new FormData(document.getElementById("vao-16-doi"));
 
+            // Gửi dữ liệu bằng AJAX
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", "submit-form/vao-16-doi.php", true);
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState == 4 && xhr.status == 200) {
+                    hideLoadingPopup();
+                    // Xử lItaly kết quả nhận được từ submit.php
+                    var response = xhr.responseText;
+                    // Hiển thị popup thông bAustria
+                    Swal.fire({
+                        icon: 'success',
+                        title: 'Thành công!',
+                        text: response,
+                        confirmButtonText: 'Xác nhận'
+                    });
+                }
+            };
+            xhr.send(formData);
+
+            // Dừng form submit để tránh tải lại trang
+            return false;
+        }
         function banket() {
             // Lấy dữ liệu từ form
             showLoadingPopup();
@@ -1536,9 +1331,9 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
             xhr.onreadystatechange = function() {
                 if (xhr.readyState == 4 && xhr.status == 200) {
                     hideLoadingPopup();
-                    // Xử lý kết quả nhận được từ submit.php
+                    // Xử lItaly kết quả nhận được từ submit.php
                     var response = xhr.responseText;
-                    // Hiển thị popup thông báo
+                    // Hiển thị popup thông bAustria
                     Swal.fire({
                         icon: 'success',
                         title: 'Thành công!',
@@ -1564,9 +1359,9 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
             xhr.onreadystatechange = function() {
                 if (xhr.readyState == 4 && xhr.status == 200) {
                     hideLoadingPopup();
-                    // Xử lý kết quả nhận được từ submit.php
+                    // Xử lItaly kết quả nhận được từ submit.php
                     var response = xhr.responseText;
-                    // Hiển thị popup thông báo
+                    // Hiển thị popup thông bAustria
                     Swal.fire({
                         icon: 'success',
                         title: 'Thành công!',

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soccer Match Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .match-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        .match-table th, .match-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        .match-table th {
+            background-color: #f2f2f2;
+        }
+        .competition-column {
+            background-color: #f9f9f9;
+        }
+        .submit-button {
+            display: block;
+            width: 100px;
+            padding: 10px;
+            margin: 20px auto;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            border: none;
+            cursor: pointer;
+        }
+        .submit-button:hover {
+            background-color: #45a049;
+        }
+        @media (max-width: 600px) {
+            .match-table, .match-table thead, .match-table tbody, .match-table th, .match-table td, .match-table tr {
+                display: block;
+            }
+            .match-table tr {
+                margin-bottom: 15px;
+            }
+            .match-table td, .match-table th {
+                text-align: right;
+                padding-left: 50%;
+                position: relative;
+            }
+            .match-table td::before, .match-table th::before {
+                content: attr(data-label);
+                position: absolute;
+                left: 10px;
+                width: 45%;
+                padding-right: 10px;
+                text-align: left;
+                font-weight: bold;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<table class="match-table">
+    <thead>
+        <tr>
+            <th>Date/Time</th>
+            <th class="competition-column">Competition</th>
+            <th>Home Team</th>
+            <th>Home</th>
+            <th>Draw</th>
+            <th>Away</th>
+            <th>Away Team</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td data-label="Date/Time">12 Dec - 04:00</td>
+            <td data-label="Competition" class="competition-column">Spanish La Liga</td>
+            <td data-label="Home Team">REAL VALLADOLID</td>
+            <td data-label="Home">1</td>
+            <td data-label="Draw">X</td>
+            <td data-label="Away">2</td>
+            <td data-label="Away Team">OSASUNA</td>
+        </tr>
+        <tr>
+            <td data-label="Date/Time">12 Dec - 21:00</td>
+            <td data-label="Competition" class="competition-column">Spanish La Liga</td>
+            <td data-label="Home Team">VALENCIA</td>
+            <td data-label="Home">1</td>
+            <td data-label="Draw">X</td>
+            <td data-label="Away">2</td>
+            <td data-label="Away Team">ATHLETIC BILBAO</td>
+        </tr>
+        <tr>
+            <td data-label="Date/Time">12 Dec - 23:15</td>
+            <td data-label="Competition" class="competition-column">Spanish La Liga</td>
+            <td data-label="Home Team">GETAFE CF</td>
+            <td data-label="Home">1</td>
+            <td data-label="Draw">X</td>
+            <td data-label="Away">2</td>
+            <td data-label="Away Team">SEVILLA</td>
+        </tr>
+        <tr>
+            <td data-label="Date/Time">13 Dec - 01:30</td>
+            <td data-label="Competition" class="competition-column">Spanish La Liga</td>
+            <td data-label="Home Team">HUESCA</td>
+            <td data-label="Home">1</td>
+            <td data-label="Draw">X</td>
+            <td data-label="Away">2</td>
+            <td data-label="Away Team">DEPORTIVO ALAVES</td>
+        </tr>
+        <tr>
+            <td data-label="Date/Time">13 Dec - 04:00</td>
+            <td data-label="Competition" class="competition-column">Spanish La Liga</td>
+            <td data-label="Home Team">REAL MADRID</td>
+            <td data-label="Home">1</td>
+            <td data-label="Draw">X</td>
+            <td data-label="Away">2</td>
+            <td data-label="Away Team">ATLETICO MADRID</td>
+        </tr>
+        <tr>
+            <td data-label="Date/Time">13 Dec - 18:00</td>
+            <td data-label="Competition" class="competition-column">Spanish La Liga</td>
+            <td data-label="Home Team">REAL SOCIEDAD</td>
+            <td data-label="Home">1</td>
+            <td data-label="Draw">X</td>
+            <td data-label="Away">2</td>
+            <td data-label="Away Team">EIBAR</td>
+        </tr>
+        <tr>
+            <td data-label="Date/Time">13 Dec - 20:15</td>
+            <td data-label="Competition" class="competition-column">Spanish La Liga</td>
+            <td data-label="Home Team">REAL BETIS</td>
+            <td data-label="Home">1</td>
+            <td data-label="Draw">X</td>
+            <td data-label="Away">2</td>
+            <td data-label="Away Team">VILLARREAL</td>
+        </tr>
+        <tr>
+            <td data-label="Date/Time">14 Dec - 00:30</td>
+            <td data-label="Competition" class="competition-column">Spanish La Liga</td>
+            <td data-label="Home Team">ELCHE</td>
+            <td data-label="Home">1</td>
+            <td data-label="Draw">X</td>
+            <td data-label="Away">2</td>
+            <td data-label="Away Team">GRANADA</td>
+        </tr>
+        <tr>
+            <td data-label="Date/Time">14 Dec - 03:00</td>
+            <td data-label="Competition" class="competition-column">Spanish La Liga</td>
+            <td data-label="Home Team">BARCELONA</td>
+            <td data-label="Home">1</td>
+            <td data-label="Draw">X</td>
+            <td data-label="Away">2</td>
+            <td data-label="Away Team">LEVANTE</td>
+        </tr>
+        <tr>
+            <td data-label="Date/Time">15 Dec - 04:00</td>
+            <td data-label="Competition" class="competition-column">Spanish La Liga</td>
+            <td data-label="Home Team">CELTA VIGO</td>
+            <td data-label="Home">1</td>
+            <td data-label="Draw">X</td>
+            <td data-label="Away">2</td>
+            <td data-label="Away Team">CADIZ</td>
+        </tr>
+    </tbody>
+</table>
+
+<button class="submit-button">SUBMIT</button>
+
+</body>
+</html>

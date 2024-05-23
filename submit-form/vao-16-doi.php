@@ -22,17 +22,25 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         die("CSRF token không hợp lệ!");
     }
     // Lấy dữ liệu từ form
-    $tk_hola = $_POST['tu_ket_tk_hola'];
-    $doi1 = $_POST['8-doi-1'];
-    $doi2 = $_POST['8-doi-2'];
-    $doi3 = $_POST['8-doi-3'];
-    $doi4 = $_POST['8-doi-4'];
-    $doi5 = $_POST['8-doi-5'];
-    $doi6 = $_POST['8-doi-6'];
-    $doi7 = $_POST['8-doi-7'];
-    $doi8 = $_POST['8-doi-8'];
+    $tk_hola = $_POST['ban_ket_tk_hola'];
+    $doi1 = $_POST['16-doi-1'];
+    $doi2 = $_POST['16-doi-2'];
+    $doi3 = $_POST['16-doi-3'];
+    $doi4 = $_POST['16-doi-4'];
+    $doi5 = $_POST['16-doi-5'];
+    $doi6 = $_POST['16-doi-6'];
+    $doi7 = $_POST['16-doi-7'];
+    $doi8 = $_POST['16-doi-8'];
+    $doi9 = $_POST['16-doi-9'];
+    $doi10 = $_POST['16-doi-10'];
+    $doi11 = $_POST['16-doi-11'];
+    $doi12 = $_POST['16-doi-12'];
+    $doi13 = $_POST['16-doi-13'];
+    $doi14 = $_POST['16-doi-14'];
+    $doi15 = $_POST['16-doi-15'];
+    $doi16 = $_POST['16-doi-16'];
 
-    $message  = "Dự đoán 8 đội vào bán kết thứ $stt\n\n";
+    $message  = "Dự đoán 16 đội vào thứ $stt\n\n";
     $message .= "  Tk hola: $tk_hola\n";
     $message .= "├Đội thứ 1: $doi1\n";
     $message .= "├Đội thứ 2: $doi2\n";
@@ -42,6 +50,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message .= "├Đội thứ 6: $doi6\n";
     $message .= "├Đội thứ 7: $doi7\n";
     $message .= "├Đội thứ 8: $doi8\n";
+    $message .= "├Đội thứ 9: $doi9\n";
+    $message .= "├Đội thứ 10: $doi10\n";
+    $message .= "├Đội thứ 11: $doi11\n";
+    $message .= "├Đội thứ 12: $doi12\n";
+    $message .= "├Đội thứ 13: $doi13\n";
+    $message .= "├Đội thứ 14: $doi14\n";
+    $message .= "├Đội thứ 15: $doi15\n";
+    $message .= "├Đội thứ 16: $doi16\n";
     sendMessage($chatID, $message);
 
     $stt ++;
